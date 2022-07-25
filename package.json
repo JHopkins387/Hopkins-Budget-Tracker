@@ -1,0 +1,27 @@
+{
+  "name": "budget-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "lite-server": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JHopkins387/Hopkins-Budget-Tracker"
+  },
+  "author": "Jarrett Hopkins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JHopkins387/Hopkins-Budget-Tracker/issues"
+  },
+  "homepage": "https://github.com/JHopkins387/Hopkins-Budget-Tracker#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.14",
+    "morgan": "^1.9.1"
+  }
+}
